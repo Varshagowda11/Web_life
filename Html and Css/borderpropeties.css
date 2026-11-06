@@ -1,0 +1,30 @@
+#box {
+    height: 400px;
+    width: 400px;
+    border: 10px;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: red;
+    /* border: 10px dotted red; */
+    border-top: 5px solid purple;
+    border-left: 10px dashed green;
+    border-bottom: 15px double red;
+    border-right: 20px dotted yellow;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 200px;
+
+    /* border-radius: 10px 20px 30px 40px;
+    border-radius: 10px 20px 30px ;
+    border-radius: 10px 20px ;
+    border-radius: 10px ; */
+
+
+}
+
+table{
+    border-spacing: 50px;
+    border-collapse: collapse;
+}

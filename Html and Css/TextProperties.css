@@ -1,0 +1,58 @@
+/* Text Properties */
+
+p {
+    color: brown;
+
+/* 1.color it will specify the color to text content 
+    values --default-black or text color */
+    
+    text-align: justify;
+/*  2.text-align it will specify the alignment postion of text
+    values--left/start-default
+            right/end
+            center
+            justify */
+
+    text-indent: 50px;
+/*  3.text-indent it will specify the space at the intial postion*/
+
+    text-transform: capitalize;
+/*  4.text-transform it will convert the text into different case */
+
+    text-decoration:  underline dashed violet ;
+/*  5.text-decoration  */
+
+    text-decoration-line: underline;
+/*  5.text-decoration-line it specifies the line of text decoration 
+    values -- none-default
+            underline
+            overline
+            line through */
+
+    text-decoration-style: dashed ;
+/*  6.text-decoration-style it specifies the style of text decoration 
+    values -- solid -default
+                dotted
+                dashed
+                double
+                wavy */
+
+    text-decoration-color: violet;
+/*  7.text-decoration-color it specifies the color of text decoration 
+    values -- black/textcolor -default
+                any color */
+    text-wrap: wrap;
+
+    letter-spacing: 0px;
+
+    word-spacing: 0px;
+
+    text-shadow: 1px 1px 3px royalblue;
+    /* default- 0px 0px 0px balck */
+
+
+}
+h1 {
+    text-align: center;
+    text-shadow: -3px 1px 16px lightgreen;
+}

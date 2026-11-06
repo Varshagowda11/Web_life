@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 900px;
+            height: 500px;
+            border: 5px solid red;
+
+            /* flex grid */
+            display: flex;
+
+            /* row colum row-reverse column-revrse */
+            flex-direction: row;
+
+            /* flex-start flex-end center space-around space-between space-evenly */
+            /* justify-content: space-evenly; */
+
+            /* flex-start flex-end center sticky */
+            /* align-items: center; */
+
+            /* wrap nowrap wrap-revrse */
+            flex-wrap: wrap;
+
+            /* start end center space-between */
+            align-content: start ;
+
+            /* row-gap: 40px;
+            column-gap: 40px; */
+            gap: 40px 40px ;
+
+
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: plum;
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child" id="child1">Child1</div>
+        <div class="child" id="child2">Child2</div>
+        <div class="child" id="child3">Child3</div>
+        <div class="child" id="child4">Child4</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+        <div class="child" id="child5">Child5</div>
+    </div>
+</body>
+</html>

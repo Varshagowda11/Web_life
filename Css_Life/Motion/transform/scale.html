@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .parent{
+            margin: 200px;
+            width: 500px;
+            height: 700px;
+            border: 3px solid slateblue;
+            display: flex;
+            /* justify-content: center;
+            align-content: center; */
+            /* transform: scaleX(2);
+            transform: scaleY(2);
+            transform: scaleY(-2 ); */
+
+            /* transform: skewX(20deg);
+            transform: skewY(20deg); */
+            /* transform: skew(20deg); */
+
+        }
+        /* head{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        } */
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            transform: scaleX(3);
+            transform: scaleY(3);
+            transform: scale(2);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <h1>box1</h1>
+        </div>
+    </div>
+</body>
+</html>

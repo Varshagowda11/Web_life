@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .amma h2{
+            background-color: blue;
+            color: white;
+        }
+        .appa>h2{
+            background-color: blue;
+            color: white;
+
+        }
+        h1+.main {
+            background-color: blue;
+            color: white;
+        }
+        #pa~h2{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="amma">
+    <h1>Descendant Combinator</h1>
+    <h2 >Child</h2>
+    <h2 >Child</h2>
+    <ul>
+        <li> <h2>Descendant</h2></li>
+    </ul>
+    </div>
+    <hr>
+    <div class="appa">
+    <h1>Child Combinator</h1>
+    <h2>Child</h2>
+    <h2>Child</h2>
+    <ul>
+        <li> <h2>Descendant</h2></li>
+    </ul>
+    </div>
+    <hr>
+    
+    <h1>Adjacent Sbiling Combinator</h1>
+    
+    <h2 class="main">First Sbiling after Heading</h2>
+    <h2 class="main">Second Sbiling after Heading</h2>
+   
+    <hr>
+    <h1 id="pa">General Sibiling Combinator</h1>
+    <h2 >First Sbiling after Heading</h2>
+    <h2 >Second Sbiling after Heading</h2>
+</body>
+</html>

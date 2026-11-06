@@ -1,0 +1,595 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+    background-image: url("../imgi_243_DRP_OF_THE_SEASON_4-1.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    /* border: 3px solid red; */
+    display: grid;
+    
+
+}
+/* .leftnav img{
+    width: 100px;
+    height: 100px;
+} */
+
+.leftnav ul li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url();
+    color: white;
+}
+
+.leftnav button{
+    border:1px solid white;
+    border-radius: 1px solid white;
+    color: white;
+    background-color: black;
+    margin-left: 800px;
+    padding: 20px 30px;
+    font-size: medium;
+
+}
+
+.main{
+    height: 70vh;
+    width: 100vw;
+    
+    
+}
+/* .main .page1{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 130px;
+    font-size: 60px;
+    font-weight: 800px;
+    font-variant: small-caps;
+    margin-left: 30px; */
+/* } */
+.main .page1 {
+    padding-top: 400px;
+    font-size: 20px;
+    font-variant: normal;
+    color: white;
+    margin-left: 40px;
+}
+.main .page1 p{
+    margin-top: 10px;
+    font-variant: normal;
+    font-size: 20px;
+    color: white;
+}
+.main .page1 button{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+h3{
+    margin-top: 100px;
+    padding: 20px;
+    color: black;
+
+}
+.circket button {
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.shoes{
+    height: 60vh;
+    width: 200vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.shoe1{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 800px;
+    background-image: url("../imgi_266_V10018201_03_2f0eb140-a784-451d-9138-e7436aebf7a0.jpg");
+    background-size: cover;
+}
+
+.shoe1:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg");
+}
+.shoe2{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 800px;
+    background-image: url("./image/imgi_269_V10018202_03_bfb9c22c-7491-42d3-8c14-b38aca5f065b.jpg");
+    background-size: cover;
+}
+.shoe2:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("./image/imgi_270_V10018202_01_b3bac10f-de0b-4c22-8a13-030509d5c0e6.jpg");
+}
+.shoe3{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 800px;
+    background-image: url("../imgi_266_V10018201_03_2f0eb140-a784-451d-9138-e7436aebf7a0.jpg");
+    background-size: cover;
+}
+.shoe3:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg");
+}
+.shoe4{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 800px;
+    background-image: url("./image/imgi_275_V10021003_03_38cbc9a3-5956-4b91-9365-ab5434e90e96.jpg");
+    background-size: cover;
+}
+.shoe4:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("./image/imgi_276_V10021003_01_63a39d22-869c-4645-a888-3f6d6a2e398d.jpg");
+}
+.shoe5{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.shoe6{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+h2{
+    margin: 30px;
+}
+.virat{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.v1{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_117_Gradient_vk_1.png");
+    background-size: cover;
+}
+.v1 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v1 :hover{
+    
+
+}
+.v2{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_118_b.png");
+    background-size: cover;
+}
+.v2 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v2:hover{
+    
+
+}
+.v3{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_119_d.png");
+    background-size: cover;
+}
+.v3 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v3:hover{
+    
+
+}
+.v4{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_120_Gradient_vk2_1.png");
+    background-size: cover;
+}
+.v4 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v4:hover{
+    
+
+}
+.featured button {
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.f{
+    height: 60vh;
+    width: 200vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.f1{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_417_V10016101_03_5c2710d2-fe30-4062-976f-e7b0a9b828dc.jpg");
+    background-size: cover;
+}
+
+.f1:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("./image/imgi_418_V10016101_01_ea89b460-9a39-4527-a985-ce7e6bf99c11.jpg");
+}
+.f2{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_278_1_db09aa69-e45a-414f-9970-7d37b9d80d52.jpg");
+    background-size: cover;
+}
+.f2:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("./image/imgi_279_2_29255017-e533-4c97-8959-e2b52b5635f0.jpg");
+}
+.f3{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_420_V10020403_03_49a1094c-18be-44a3-914b-5e75eb8b5d25.jpg");
+    background-size: cover;
+}
+.f3:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("./image/imgi_421_V10020403_01_f74173d5-f41b-431e-8d3d-293ae85849bc.jpg");
+}
+.f4{
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_423_1_952820b0-e840-42b6-92f8-a1ace2244782.jpg");
+    background-size: cover;
+}
+.f4:hover{
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    background-image: url("./image/imgi_424_2_24f9fbac-10e2-4387-a9df-1bf9b80dbeee.jpg")
+
+}
+.elevate{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.e1{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_223_Footwear_743c2201-c525-4d92-9199-6d111221ff2d.jpg");
+    background-size: cover;
+}
+.e1 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v1:hover{
+    
+
+}
+.e2{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_29_1_4f317e53-1479-4ef4-a2bf-c51358cb9ce0.jpg");
+    background-size: cover;
+}
+.e2 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v2:hover{
+    
+
+}
+.e3{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_225_Caps_19edfef2-7aed-40f3-b6ec-3de1a0bcb1df.jpg");
+    background-size: cover;
+}
+.e3 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v3:hover{
+    
+
+}
+.e4{
+    margin-top: 10px;
+    height: 400px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/imgi_2_acctive_lifestyle.jpg");
+    background-size: cover;
+}
+.e4 button{
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 90%;
+    margin-left: 40%;
+    border-radius: 20px;
+    /* height: 400px; */
+    /* width: 400px;
+    background-size: cover; */ 
+    /* background-image: url("../imgi_267_V10018201_01_85dd68a9-d6d8-4922-8cf9-eabecda56978.jpg"); */
+    
+}
+.v4:hover{
+    
+
+}
+.two{
+    margin-top: 80px;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    gap: 30px;
+
+}
+.men{
+    height: 600px;
+    width: 50vw;
+    background-image: url("./image/imgi_545_mens.png");
+    background-size: cover;
+    
+}
+.two:hover{
+    transform: scale(1);
+}
+.women{
+    height: 600px;
+    width: 50vw;
+    background-image: url("./image/imgi_556_womens.png");
+    background-size: cover;
+}
+.three{
+    margin-top: 300px;
+    height: 400px;
+    width: 100vw;
+
+}
+.mer{
+    height: 600px;
+    width: 100vw;
+    background-image: url("./image/imgi_567_cricket_home_page_desktop_4a9df5be-2e3c-46bd-8b7f-8dcae5ac3372.jpg");
+    background-size: cover;
+}
+.ph{
+    margin-top: 50px;
+    height: 600px;
+    width: 100vw;
+    background-image: url("./image/Screenshot\ 2026-10-31\ 152751.png");
+    background-size: cover;
+}
+.last{
+    margin-top: 300px;
+    height: 400px;
+    width: 100vw;
+
+}
+.ant{
+    height: 600px;
+    width: 100vw;
+    background-image: url("./image/image.png");
+    background-size: cover;
+
+
+}
+.cro{
+    height: 600px;
+    width: 100vw;
+    background-image: url("./image/Screenshot\ 2026-10-31\ 152447.png");
+    background-size: cover;
+
+
+}
