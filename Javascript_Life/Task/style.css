@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.rightnav{
+    width: 80%;
+    height: 100vh;
+    background-color:red;
+    position: fixed;
+    left: 20%;
+}
+.rightnav button{
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 20px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: fixed;
+}
+.leftmain img{
+    width: 60%;
+    height: 100vh;
+    background-color: red;
+    position: fixed;
+}
