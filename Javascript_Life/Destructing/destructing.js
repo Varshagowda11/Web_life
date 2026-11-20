@@ -17,5 +17,5 @@ let data=
 // let {first_name,age,last_name}=data
 // console.log(first_name);mn,
 let {first_name:fn,age:a,last_name:ln}=data
-console.log(fn);
+console.log(fn);h
 
