@@ -143,3 +143,38 @@ let data=Object.is(user,user1)
 // let data=Object.is(user,{name:"rani",age:20})
 console.log(data)
 
+// let student = {};
+
+// Object.defineProperty(student, "name", {
+//     value: "Rahul",
+//     writable: false
+// });
+
+// student.name = "Somu";
+
+// console.log(student.name);
+
+// let student = {};
+
+// Object.defineProperty(student, "name", {
+//     value: "Rahul",
+//     enumerable: false
+// });
+
+// console.log(student.name);
+
+// for(let key in student)
+// {
+//     console.log(key);
+// }
+
+// let student = {};
+
+// Object.defineProperty(student, "name", {
+//     value: "Rahul",
+//     configurable: false
+// });
+
+// delete student.name;
+
+// console.log(student.name);
